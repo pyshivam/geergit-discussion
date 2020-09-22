@@ -1,2 +1,1 @@
-# geergit-discussion
-Geergit
+# Geergit Discussion Forum
