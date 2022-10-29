@@ -17,10 +17,10 @@ Change means when an application access these parameters this appwill replace or
 
 
 Features:
-● Quick reboot option
-● Import / Export configuration
-● One click change of values.
-● Enable/disable option as required.
+- Quick reboot option
+- Import / Export configuration
+- One click change of values.
+- Enable/disable option as required.
 
 
 Supported ids (Parameters):
