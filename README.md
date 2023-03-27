@@ -9,7 +9,7 @@ To Know more about Xposed Read Here.
 http://forum.xda-developers.com/xposed/
 <br/><br/>
 
-### IMPORTANT
+## IMPORTANT
 
 - Although this app has been tested on several devices, there arealways chance something can go wrong. It is always recommended to have a backup of your ROM and other important data before trying this app.
 
@@ -17,35 +17,51 @@ This is Xposed Module For Changing (MASKING) the various IDs in the Phone.
 Change means when an application access these parameters this appwill replace original value with user provided value. Original values are always intact in device.
 <br/><br/>
 
-### Features:
+## Features
 
-- Sync configuration with server
-- One click change of values.
-- Per app change of values.
-- Enable/disable option as required.
-- Hide root.
-- Hide xposed.
-- Hide hide mock location.
-- Bypass SafetyNet (Not Working).
-  <br/><br/>
+### Spoofing (Hide your original details and give fake ones!)
 
-### Supported ids (Parameters):
+- Sim Operator (premium)
 
-- IMEI number.
-- Device ID.
-- Serial
-- Bluetooth Mac
-- Wifi Mac
-- Wifi SSID
-- Mobile no.
-- SIM Card Serial
-- SIM Subscriber ID
-- Network operator country.
-- Network operator name.
-- Operator MCC/MNC code.
-- Google Email / Account.
-- Google Advertising ID.
-  <br/><br/>
+1. Country
+2. Sim Operator
+3. MCC
+4. MNC
+
+- IMEI
+
+1. IMEI 1
+2. IMEI 2
+3. Increment both IMEI by Increment value on Random
+
+- Gmail address (spoof your logged-in Gmail for Victim Apps)
+- Android ID
+- Hardware Serial
+- Advertising ID (Not working in newer android versions)
+- Google Services Framework (GSF) ID (premium)
+- Bluetooth Mac Address
+- WiFi Mac Address
+- WiFi SSID
+- Mobile Number (premium)
+- SIM Subscriber number (premium)
+- SIM Card Serial (premium)
+- MediaDRM (premium) [Coming Soon]
+
+### Target apps' features
+
+- Per App Spoofing
+- Hide Root
+- Hide Xposed
+- Creation of Profiles
+- Add Notes to Profiles
+- One Click Randomize
+- Grouping of Target Apps (Coming Soon)
+
+### Import / Export
+
+- Backup Target App's Data (premium)
+- Import / Export Profiles (Spoofed/Fake values)
+- Import / Export the above data to Local Storage and/or Google Drive (premium)[Coming Soon]
 
 ### Feature request
 
