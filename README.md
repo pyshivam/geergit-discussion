@@ -1,5 +1,7 @@
 # Geergit - Protect Your Privacy
 
+![](banner.png)
+
 ROOT REQUIRED
 
 XPOSED FRAMEWORK REQUIRED
@@ -34,7 +36,7 @@ Change means when an application access these parameters this appwill replace or
 2. IMEI 2
 3. Increment both IMEI by Increment value on Random
 
-- Gmail address (spoof your logged-in Gmail for Victim Apps)
+- Gmail address (spoof your logged-in Gmail for Victim Apps) (premium)
 - Android ID
 - Hardware Serial
 - Advertising ID (Not working in newer android versions)
@@ -42,9 +44,9 @@ Change means when an application access these parameters this appwill replace or
 - Bluetooth Mac Address
 - WiFi Mac Address
 - WiFi SSID
-- Mobile Number (premium)
-- SIM Subscriber number (premium)
-- SIM Card Serial (premium)
+- Mobile Number
+- SIM Subscriber number
+- SIM Card Serial
 - MediaDRM (premium) [Coming Soon]
 
 ### Target apps' features
@@ -65,10 +67,12 @@ Change means when an application access these parameters this appwill replace or
 
 ### Feature request
 
-There are two method to request feature
+There are multiple methods to request feature
 
 1. You can open feature request issue to this repository.
 2. Submit this Google Form: https://forms.gle/X8sX6PcSi9bRbK1YA
+3. [Telegram Group](https://t.me/geergit_xposed)
+4. [XDA Thread](https://forum.xda-developers.com/t/app-xposed-5-0-13-geergit-a-module-to-protect-your-privacy.4573243/)
 
 <br/>
 
@@ -84,8 +88,17 @@ Steps to enable app in Xposed Framework (LSPosed Recommended).
 - Restart phone
 - Open the app
 - And you can start using it by changing settings.
-  <br/><br/>
+
+2. Don't use this app for any illegal purpose or cheat any program this module is just for better privacy.
+   <br/><br/>
+
+Credits:
+
+@DE - For inspiring me for this module. <br/>
+@Lsposed Team - For their efforts. <br/>
+@VD171 - for his app VDInfo which will help to check spoof values.
+<br/><br/>
 
 ### End User Licence Agreement (EULA)
 
-"This software is provided AS IS without warranty of any kind. In no event will author be liable for any damages caused by using this product."
+"THE SOFTWARE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SOFTWARE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SOFTWARE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT WILL AUTHOR BE LIABLE FOR ANY DAMAGES CAUSED BY USING THIS PRODUCT"
