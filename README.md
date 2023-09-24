@@ -6,17 +6,17 @@ ROOT REQUIRED
 
 XPOSED FRAMEWORK REQUIRED
 
-IF You dont know What is XPOSED FRAMEWORK then do not try this application (it wont work).
+If You don't know what is XPOSED FRAMEWORK then do not try this application (it won't work).
 To Know more about Xposed Read Here.
 http://forum.xda-developers.com/xposed/
 <br/><br/>
 
 ## IMPORTANT
 
-- Although this app has been tested on several devices, there arealways chance something can go wrong. It is always recommended to have a backup of your ROM and other important data before trying this app.
+- Although this app has been tested on several devices, there is always a chance something can go wrong. It is always recommended to have a backup of your ROM and other important data before trying this app.
 
-This is Xposed Module For Changing (MASKING) the various IDs in the Phone.
-Change means when an application access these parameters this appwill replace original value with user provided value. Original values are always intact in device.
+This is the Xposed Module For Changing (MASKING) the various IDs in the Phone.
+Change means when an application accesses these parameters this app will replace the original value with user provided value. Original values are always intact in the device.
 <br/><br/>
 
 ## Pricing Table
@@ -39,6 +39,7 @@ Change means when an application access these parameters this appwill replace or
 | Google Service Framework (GSF)                       |          | ✔️                | ✔️                     | ✔️                   |
 | Spoof Google Accounts (Gmail)                        |          | ✔️                | ✔️                     | ✔️                   |
 | Android ID                                           |          |                   | ✔️                     | ✔️                   |
+| WiFi BSSID                                           |          |                   | ✔️                     | ✔️                   |
 | DRM Media                                            |          |                   | ✔️                     | ✔️                   |
 | On click random all the values                       |          |                   | ✔️                     | ✔️                   |
 | Make device look more legit (hide root, xposed, etc) |          |                   |                        | ✔️                   |
@@ -47,6 +48,7 @@ Change means when an application access these parameters this appwill replace or
 | Create groups of target apps                         |          |                   |                        | ✔️                   |
 | Profile creation per App and Group                   |          |                   |                        | ✔️                   |
 | Add notes to profile                                 |          |                   |                        | ✔️                   |
+| Export backed-up apps' data to local storage         |          |                   |                        | ✔️                   |
 
 **Freemium:** The Freemium membership provides essential features to enhance your privacy control on Android. With Freemium, you can protect your IMEI, hardware serial, Bluetooth MAC, Wi-Fi MAC, mobile number, advertising ID, and Wi-Fi SSID. It's a great starting point for securing your information.
 
@@ -64,7 +66,7 @@ Please note that the availability of certain features may vary depending on the 
 
 There are multiple methods to request feature
 
-1. You can open feature request issue to this repository.
+1. You can open a feature request issue to this repository.
 2. Submit this Google Form: https://forms.gle/X8sX6PcSi9bRbK1YA
 3. [Telegram Group](https://t.me/geergit_xposed)
 4. [XDA Thread](https://forum.xda-developers.com/t/app-xposed-5-0-13-geergit-a-module-to-protect-your-privacy.4573243/)
@@ -73,14 +75,14 @@ There are multiple methods to request feature
 
 ## NOTE:
 
-1. For changes to take effect close all running applications alsoswipe / clear apps from recent list. No need to reboot.
+1. For changes to take effect close all running applications also swipe / clear apps from the recent list. No need to reboot.
 
 ### Steps to enable app in Xposed Framework (LSPosed Recommended)
 
 - Install app
-- Go to xposed module
+- Go to the xposed module
 - Enable module in xposed framework
-- Select target/victim apps in module's scope incase of LSPosed
+- Select target/victim apps in the module's scope in case of LSPosed
 - Restart phone
 - Open the app
 - And you can start using it by changing settings.
